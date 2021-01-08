@@ -1,0 +1,13 @@
+{
+  "include": [
+    "created_at",
+    "id",
+    "text",
+    "truncated",
+    "user",
+    "coordinates",
+    "place",
+    "entities",
+    "lang"
+  ]
+}
