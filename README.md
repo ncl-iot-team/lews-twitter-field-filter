@@ -62,7 +62,7 @@ docker build --tag lews-twitter-field-filter .
 
 
 ```bash
-docker run FILTER_CONFIG_FILENAME=<filter configuration file name> \
+docker run FILTER_CONFIG_FILENAME="<filter configuration file name>" \
 -e MODULE_NAME="LEWS-TWITTER-FIELD-FILTER" \
 -e CONSUMER_GROUP="LEWS-TWITTER-FIELD-FILTER-CG01" \
 -e KAFKA_SOURCE_BOOTSTRAP_SERVERS="<source_kafka_bootstrap_server>" \
